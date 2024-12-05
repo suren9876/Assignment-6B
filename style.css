@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+#nav a:hover {  /* Pseudo-class for hover effect on main navigation links */
+  color: red;
+}
+
+#side-nav { /* Styles for vertical navigation */
+  float: left;
+  width: 20%;
+  background-color: #ddd;
+  padding: 10px;
